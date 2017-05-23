@@ -5,26 +5,113 @@
     <meta charset="utf-8" />
     <title>My Custom Page</title>
     <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
-    <!--<link rel="stylesheet" href="JavaScript\JQuery\jquery-ui-1.12.1\jquery-ui.min.css" />-->
+    <!--<link rel="stylesheet" href="Scripts\jquery-ui-1.12.1\jquery-ui.min.css" />-->
     <link rel="stylesheet" href="../css/StyleSheet.css" />
 </head>
 <body>
 
-    <div id="draggable" class="ui-widget-content">
-        <p>Drag me around</p>
+    <div id="container">
+        <div id="draggable1" class="ui-widget-content">
+            <p>Drag me around</p>
+        </div>
     </div>
 
+    <div id="draggable" class="ui-widget ui-widget-content">
+        <p>drag me to fire the chain of events</p>
+        <ul class="ui-helper-reset">
+            <li id="event-start" class="ui-state-default ui-corner-all"><span class="ui-icon ui-icon-play">"Start" Invoked</span><span class="count">0</span>x</li>
+            <li id="event-drag" class="ui-state-default ui-corner-all"><span class="ui-icon ui-icon-arrow-4">"Drag" Invoked</span><span class="count">0</span>x</li>
+            <li id="event-stop" class="ui-state-default ui-corner-all"><span class="ui-icon ui-icon-stop">"Stop" Invoked</span><span class="count">0</span>x</li>
+        </ul>
+    </div>
 
+    <p>Date: <input type="text" id="datePicker" /></p>
+    <p>
+        Animations:<br>
+        <select id="anim">
+            <option value="show">Show (default)</option>
+            <option value="slideDown">Slide down</option>
+            <option value="fadeIn">Fade in</option>
+            <option value="blind">Blind (UI Effect)</option>
+            <option value="bounce">Bounce (UI Effect)</option>
+            <option value="clip">Clip (UI Effect)</option>
+            <option value="drop">Drop (UI Effect)</option>
+            <option value="fold">Fold (UI Effect)</option>
+            <option value="slide">Slide (UI Effect)</option>
+            <option value="">None</option>
+        </select>
+    </p>
 
+    <div id="droppable" class="ui-widget-header">
+        <p>Drop here!</p>
+    </div>
 
+    <p style="font-size:16px">
+        <span>You've Selected: </span><span id="selectResult">none</span>
+    </p>
+    <ol id="selectable">
+        <li class="ui-widget-content">1</li>
+        <li class="ui-widget-content">2</li>
+        <li class="ui-widget-content">3</li>
+        <li class="ui-widget-content">4</li>
+        <li class="ui-widget-content">5</li>
+        <li class="ui-widget-content">6</li>
+        <li class="ui-widget-content">7</li>
+        <li class="ui-widget-content">8</li>
+        <li class="ui-widget-content">9</li>
+        <li class="ui-widget-content">10</li>
+        <li class="ui-widget-content">11</li>
+        <li class="ui-widget-content">12</li>
+    </ol>
 
-
-
-
-
-
-
-
+    <div id="accordion">
+        <h3>Section 1</h3>
+        <div>
+            <p>
+                Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer
+                ut neque. Vivamus nisi metus, molestie vel, gravida in, condimentum sit
+                amet, nunc. Nam a nibh. Donec suscipit eros. Nam mi. Proin viverra leo ut
+                odio. Curabitur malesuada. Vestibulum a velit eu ante scelerisque vulputate.
+            </p>
+        </div>
+        <h3>Section 2</h3>
+        <div>
+            <p>
+                Sed non urna. Donec et ante. Phasellus eu ligula. Vestibulum sit amet
+                purus. Vivamus hendrerit, dolor at aliquet laoreet, mauris turpis porttitor
+                velit, faucibus interdum tellus libero ac justo. Vivamus non quam. In
+                suscipit faucibus urna.
+            </p>
+        </div>
+        <h3>Section 3</h3>
+        <div>
+            <p>
+                Nam enim risus, molestie et, porta ac, aliquam ac, risus. Quisque lobortis.
+                Phasellus pellentesque purus in massa. Aenean in pede. Phasellus ac libero
+                ac tellus pellentesque semper. Sed ac felis. Sed commodo, magna quis
+                lacinia ornare, quam ante aliquam nisi, eu iaculis leo purus venenatis dui.
+            </p>
+            <ul>
+                <li>List item one</li>
+                <li>List item two</li>
+                <li>List item three</li>
+            </ul>
+        </div>
+        <h3>Section 4</h3>
+        <div>
+            <p>
+                Cras dictum. Pellentesque habitant morbi tristique senectus et netus
+                et malesuada fames ac turpis egestas. Vestibulum ante ipsum primis in
+                faucibus orci luctus et ultrices posuere cubilia Curae; Aenean lacinia
+                mauris vel est.
+            </p>
+            <p>
+                Suspendisse eu nisl. Nullam ut libero. Integer dignissim consequat lectus.
+                Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
+                inceptos himenaeos.
+            </p>
+        </div>
+    </div>
 
 
 
@@ -37,8 +124,9 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
 
-    <!--<script src="\JavaScript\JQuery\jq<!--uery-3.2.1.min.js"
-    <script src="\JavaScript\JQuery\jquery-ui-1.12.1\jquery-ui.min.js"></script>-->
-    <script src="../javascripts/Script.js"></script>
+    <!--<script src="\Scripts\jquery-3.2.1.min.js"
+    <script src="\Scripts\jquery-ui-1.12.1\jquery-ui.min.js"></script>-->
+
+    <script src="../Scripts/Script.js"></script>
 </body>
 </html>
