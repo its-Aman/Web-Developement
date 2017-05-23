@@ -3,64 +3,20 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "javascripts", "javascripts", "{BD9DC0A3-41C7-436F-BC98-E301383B9129}"
-	ProjectSection(SolutionItems) = preProject
-		..\..\..\..\Desktop\JavaScript\JQuery\jquery-3.2.1.min.js = ..\..\..\..\Desktop\JavaScript\JQuery\jquery-3.2.1.min.js
-		Script.js = Script.js
-	EndProjectSection
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "css", "css", "{695F15A1-A851-4BCF-9CF8-9B2850175CCB}"
-	ProjectSection(SolutionItems) = preProject
-		StyleSheet.css = StyleSheet.css
-	EndProjectSection
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "htmlPages", "htmlPages", "{32B287DC-3997-4B3E-8014-0EC5BF3B82E3}"
-	ProjectSection(SolutionItems) = preProject
-		demo.html = demo.html
-	EndProjectSection
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "jquery-ui-1.12.1", "jquery-ui-1.12.1", "{85C10813-D23B-471C-A39E-278996C101F7}"
-	ProjectSection(SolutionItems) = preProject
-		..\..\..\..\Desktop\JavaScript\JQuery\jquery-ui-1.12.1\AUTHORS.txt = ..\..\..\..\Desktop\JavaScript\JQuery\jquery-ui-1.12.1\AUTHORS.txt
-		..\..\..\..\Desktop\JavaScript\JQuery\jquery-ui-1.12.1\index.html = ..\..\..\..\Desktop\JavaScript\JQuery\jquery-ui-1.12.1\index.html
-		..\..\..\..\Desktop\JavaScript\JQuery\jquery-ui-1.12.1\jquery-ui.css = ..\..\..\..\Desktop\JavaScript\JQuery\jquery-ui-1.12.1\jquery-ui.css
-		..\..\..\..\Desktop\JavaScript\JQuery\jquery-ui-1.12.1\jquery-ui.js = ..\..\..\..\Desktop\JavaScript\JQuery\jquery-ui-1.12.1\jquery-ui.js
-		..\..\..\..\Desktop\JavaScript\JQuery\jquery-ui-1.12.1\jquery-ui.min.css = ..\..\..\..\Desktop\JavaScript\JQuery\jquery-ui-1.12.1\jquery-ui.min.css
-		..\..\..\..\Desktop\JavaScript\JQuery\jquery-ui-1.12.1\jquery-ui.min.js = ..\..\..\..\Desktop\JavaScript\JQuery\jquery-ui-1.12.1\jquery-ui.min.js
-		..\..\..\..\Desktop\JavaScript\JQuery\jquery-ui-1.12.1\jquery-ui.structure.css = ..\..\..\..\Desktop\JavaScript\JQuery\jquery-ui-1.12.1\jquery-ui.structure.css
-		..\..\..\..\Desktop\JavaScript\JQuery\jquery-ui-1.12.1\jquery-ui.structure.min.css = ..\..\..\..\Desktop\JavaScript\JQuery\jquery-ui-1.12.1\jquery-ui.structure.min.css
-		..\..\..\..\Desktop\JavaScript\JQuery\jquery-ui-1.12.1\jquery-ui.theme.css = ..\..\..\..\Desktop\JavaScript\JQuery\jquery-ui-1.12.1\jquery-ui.theme.css
-		..\..\..\..\Desktop\JavaScript\JQuery\jquery-ui-1.12.1\jquery-ui.theme.min.css = ..\..\..\..\Desktop\JavaScript\JQuery\jquery-ui-1.12.1\jquery-ui.theme.min.css
-		..\..\..\..\Desktop\JavaScript\JQuery\jquery-ui-1.12.1\LICENSE.txt = ..\..\..\..\Desktop\JavaScript\JQuery\jquery-ui-1.12.1\LICENSE.txt
-		..\..\..\..\Desktop\JavaScript\JQuery\jquery-ui-1.12.1\package.json = ..\..\..\..\Desktop\JavaScript\JQuery\jquery-ui-1.12.1\package.json
-		Script.js = Script.js
-	EndProjectSection
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "images", "images", "{B9F78E9F-F7D5-458B-9B09-55136EB2ABE5}"
-	ProjectSection(SolutionItems) = preProject
-		..\..\..\..\Desktop\JavaScript\JQuery\jquery-ui-1.12.1\images\ui-icons_444444_256x240.png = ..\..\..\..\Desktop\JavaScript\JQuery\jquery-ui-1.12.1\images\ui-icons_444444_256x240.png
-		..\..\..\..\Desktop\JavaScript\JQuery\jquery-ui-1.12.1\images\ui-icons_555555_256x240.png = ..\..\..\..\Desktop\JavaScript\JQuery\jquery-ui-1.12.1\images\ui-icons_555555_256x240.png
-		..\..\..\..\Desktop\JavaScript\JQuery\jquery-ui-1.12.1\images\ui-icons_777620_256x240.png = ..\..\..\..\Desktop\JavaScript\JQuery\jquery-ui-1.12.1\images\ui-icons_777620_256x240.png
-		..\..\..\..\Desktop\JavaScript\JQuery\jquery-ui-1.12.1\images\ui-icons_777777_256x240.png = ..\..\..\..\Desktop\JavaScript\JQuery\jquery-ui-1.12.1\images\ui-icons_777777_256x240.png
-		..\..\..\..\Desktop\JavaScript\JQuery\jquery-ui-1.12.1\images\ui-icons_cc0000_256x240.png = ..\..\..\..\Desktop\JavaScript\JQuery\jquery-ui-1.12.1\images\ui-icons_cc0000_256x240.png
-		..\..\..\..\Desktop\JavaScript\JQuery\jquery-ui-1.12.1\images\ui-icons_ffffff_256x240.png = ..\..\..\..\Desktop\JavaScript\JQuery\jquery-ui-1.12.1\images\ui-icons_ffffff_256x240.png
-	EndProjectSection
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "external", "external", "{EF995EF5-B070-496A-8E4A-C69A0F8A305B}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "jquery", "jquery", "{22492BD8-1AB7-4262-9C66-CDEC642B1B81}"
-	ProjectSection(SolutionItems) = preProject
-		..\..\..\..\Desktop\JavaScript\JQuery\jquery-ui-1.12.1\external\jquery\jquery.js = ..\..\..\..\Desktop\JavaScript\JQuery\jquery-ui-1.12.1\external\jquery\jquery.js
-	EndProjectSection
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectDemo", "ProjectDemo\ProjectDemo.csproj", "{CB35CA83-72D5-4D62-BE69-6A0139BFAAC8}"
 EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CB35CA83-72D5-4D62-BE69-6A0139BFAAC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CB35CA83-72D5-4D62-BE69-6A0139BFAAC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CB35CA83-72D5-4D62-BE69-6A0139BFAAC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CB35CA83-72D5-4D62-BE69-6A0139BFAAC8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
-		{85C10813-D23B-471C-A39E-278996C101F7} = {BD9DC0A3-41C7-436F-BC98-E301383B9129}
-		{B9F78E9F-F7D5-458B-9B09-55136EB2ABE5} = {85C10813-D23B-471C-A39E-278996C101F7}
-		{EF995EF5-B070-496A-8E4A-C69A0F8A305B} = {85C10813-D23B-471C-A39E-278996C101F7}
-		{22492BD8-1AB7-4262-9C66-CDEC642B1B81} = {EF995EF5-B070-496A-8E4A-C69A0F8A305B}
 	EndGlobalSection
 EndGlobal
