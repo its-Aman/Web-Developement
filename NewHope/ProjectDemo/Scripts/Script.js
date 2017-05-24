@@ -94,5 +94,20 @@ $(function () {
 });
 
 $(function () {
+    $("#dialog").dialog({
+        autoOpen: false,
+        show: { effect: "blind", duration: 1000 },
+        hide: { effect: "explode", duraton: 1000 }
+    });
+    $("#droppable").on("click", function () {
+        $("#dialog").dialog("open");
+    });
+});
 
+$(function () {
+    $("#tabs").tabs({ event: "mouseover" });
+});
+
+$(function () {
+    $(document).tooltip();
 });
