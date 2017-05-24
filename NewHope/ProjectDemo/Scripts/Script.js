@@ -1,5 +1,3 @@
-
-
 $(function () {
     $("#draggable1")
         .draggable({ revert: "invalid" })
