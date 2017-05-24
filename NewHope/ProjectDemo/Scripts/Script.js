@@ -109,3 +109,35 @@ $(function () {
 $(function () {
     $(document).tooltip();
 });
+
+$(function () {
+    var c1 = [0, 0];
+
+    $("#_btn").on({
+        "click": function () { console.log("either clicked or hovered : " + c1[0]++); },
+        "mouseover": function () { console.log("hovered only : " + c1[1]++) }
+    });
+    $("#_btn").one({
+        "click": function () { console.log("clicked 1st time"); }
+    });
+    $("#link").on({
+        click: function (e) {
+            e.name = "Motoko";
+            e.preventDefault();
+            e.stopPropagation();
+            console.dir(e);
+        }
+    });
+});
+
+$(function () {
+    $("#list").fadeOut(2000).delay(500).fadeIn(2000).delay(500).fadeToggle("slow").delay(500).fadeToggle("slow");
+});
+
+
+
+
+
+
+
+
